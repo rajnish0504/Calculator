@@ -1,0 +1,97 @@
+
+body, html {
+    height: 100%;
+  }
+body {
+  
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    text-align: center; 
+    
+    background-image: url('bg.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+
+  
+h2 {
+    font-size: 4em; 
+    color: rgba(0, 0, 0, 0.5); 
+ }
+
+ 
+ label {
+  display: block; 
+  margin-bottom: 10px; 
+  font-weight: bold; 
+  font-size: 30px;
+}
+input[type="text"] {
+  width: 10%; 
+  
+  padding: 10px; 
+  border: 1px solid #000000; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  font-size: 16px;
+  align-items: center;
+  background-color: transparent;
+
+}
+
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+  width: 20%;
+  margin: auto;
+}
+.button button {
+  background-color: #5a5458; 
+  color: rgb(4, 4, 4); 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px;
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
+}
+.button {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  padding: 20px; 
+  background-color: transparent;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  width: 20%; /* Set width of the container */
+  margin: 0 auto; /* Center horizontally */
+}
+.button button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button[onclick] {
+  background-color: #a81ba3; /* Blue background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button[onclick]:hover {
+  background-color: #a71775; /* Darker blue on hover */
+}
